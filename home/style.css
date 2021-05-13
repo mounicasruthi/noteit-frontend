@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy Dark", sans-serif;
+  color: white;
+}
+
+@font-face {
+  font-family: "Nafta Light";
+  src: url("NaftaLight-Regular.ttf");
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("Gilroy-Light.otf");
+  }
+
+   @font-face {
+  font-family: "Gilroy Dark";
+  src: url("Gilroy-ExtraBold.otf");
+}  
+
+
+body {
+  position: relative;
+  background: #1E1E1E;
+  overflow: hidden;
+  height: 50vh;
+  width: 100%;
+  padding: 200px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.heading {
+  position: relative;
+  font-family: "Gilroy";
+  
+
+  font-size: 100px;
+  margin: 0%;
+
+  color: #fffdfd;
+}
+
+.tagline {
+  position: relative;
+  font-family: "Gilroy";
+ 
+   font-weight: 60; 
+  font-size: 40px;
+  margin: 0%;
+
+  padding: 0px;
+  color: #fdcdc1;
+}
+
+.it {
+  color: #fdcdc1;
+}
+
+.dot {
+  color: #fdd66d;
+}
+
+
+
+.description {
+  position: relative;
+  font-family: "Nafta Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 35px;
+ 
+  text-align: center;
+  color: #fffdfd;
+  padding: 30px;
+}
+
+.dotP {
+  color: #fdcdc1;
+  font-size: 70px;
+}
+
+.dotY {
+  color: #fdd66d;
+  font-size: 70px;
+}
+
+.dotM {
+  color: #d0efe9;
+  font-size: 70px;
+}
+
+.dotG {
+  color: #c7cd97;
+  font-size: 70px;
+}
+
+
+
+.next {
+  position: relative;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 58px;
+  text-align: center;
+
+  color: #fffdfd;
+}
+
+.partB {
+    
+    background-image:url("Group6.png");
+    padding: 12px;
+    color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
+   
+}
+
+.link {
+    color: #1E1E1E;
+    text-decoration-line: none;
+}
+
+.link:hover {
+    color: white;
+}
+
+.partA {
+    font-family: "Gilroy";
+}
+
+#particles-js
+{
+    position: fixed;
+     top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; 
+    z-index: -1;
+}
