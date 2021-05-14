@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+  color: #1e1e1e;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-Light.otf");
+}
+
+@font-face {
+  font-family: "Gilroy Dark";
+  src: url("Gilroy-ExtraBold.otf");
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(dashboardbg.png);
+  background-size: 100%;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.content {
+  padding-top: 60px;
+  min-height: 100vh;
+  width: 100%;
+  overflow: scroll;
+}
+.card-container {
+  height: 90vh;
+  width: 80%;
+  padding: 0 80px;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.card {
+  width: 250px;
+  min-height: 250px;
+  padding: 10px;
+  background: #bea68e;
+  border: 5px solid #083230;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.card-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-heading {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.edit-note {
+  height: 28px;
+  cursor: pointer;
+}
+
+.edit-note > img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-content {
+  font-size: 14px;
+  margin-top: 10px;
+
+  width: 100%;
+  min-height: 180px;
+
+  padding: 10px;
+  border-radius: 15px;
+  word-break: break-word;
+}
+
+#clock {
+  font-family: Gilroy Dark;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+
+  text-align: center;
+  margin-bottom: 30px;
+  color: #bea68e;
+
+  text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.additional {
+  position: absolute;
+  width: 316px;
+  height: 67px;
+  left: 944px;
+  top: 170px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.options {
+  width: 200px;
+  height: 45px;
+  padding: 4px;
+
+  background: #295d38;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-family: Gilroy Dark;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+
+  text-align: center;
+  color: #c7d9a7;
+}
+
+.dot {
+  font-family: Gilroy Dark;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  color: #fdd66d;
+}
+.link {
+  color: #1e1e1e;
+  text-decoration-line: none;
+  font-family: Gilroy Dark;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  color: #c7d9a7;
+}
+
+.link:hover {
+  color: white;
+}
