@@ -7,18 +7,18 @@
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("Gilroy-Light.otf");
+  src: url("../assets/Fonts/Gilroy-Light.otf");
 }
 
 @font-face {
   font-family: "Gilroy Dark";
-  src: url("Gilroy-ExtraBold.otf");
+  src: url("../assets/Fonts/Gilroy-ExtraBold.otf");
 }
 
 body {
   min-height: 100vh;
   width: 100%;
-  background-image: url(Frame4.svg);
+  background-image: url(../assets/Images/Frame4.svg);
   background-repeat: no-repeat;
   overflow: hidden;
   background-size: cover;

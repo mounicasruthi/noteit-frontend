@@ -7,12 +7,12 @@
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("Gilroy-Light.otf");
+  src: url("../assets/Fonts/Gilroy-Light.otf");
 }
 
 @font-face {
   font-family: "Gilroy Dark";
-  src: url("Gilroy-ExtraBold.otf");
+  src: url("../assets/Fonts/Gilroy-ExtraBold.otf");
 }
 
 body {
