@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Signin/Signup</title>
-</head>
-<body>
-      <div class="partA">
-        <form>
+  </head>
+  <body>
+      <div class="container">
+    <div class="partA">
+      <!-- <form>
             <div>
-                <input type="email" class="email1" placeholder="email">
+                <input type="email" class="email" placeholder="email">
             </div>
             <div>
                 <input type="password" class="password" placeholder="password">
@@ -19,39 +20,70 @@
             <div>
             <button class="signin">Sign<span class="in">in</span><span class="dot1">.</span></button>
         </div>
-        </form>
+        </form> -->
+      <form>
+        <input type="email" class="email" placeholder="email" />
+        <input type="password" class="password" placeholder="password" />
+        <button type="submit" class="signin">
+          Sign<span class="in">in</span><span class="dot1">.</span>
+        </button>
+      </form>
     </div>
 
     <div class="partB">
-        <form>
-            <div>
-                <input type="text" class="username" placeholder="username"><br>
-            </div>
-            <div>
-                <input type="email" class="email2" placeholder="email">
-            </div>
-            <div>
-                <input type="password" class="password" placeholder="password">
-            </div>
-            <div>
-                <input type="password" class="repassword" placeholder="confirm password">
-            </div>
-            <button class="signup">Sign<span class="up">up</span><span class="dot1">.</span></button>
-        </form>
+      <!-- <form>
+        <div>
+          <input type="text" class="username" placeholder="username" /><br />
+        </div>
+        <div>
+          <input type="email" class="email" placeholder="email" />
+        </div>
+        <div>
+          <input type="password" class="password" placeholder="password" />
+        </div>
+        <div>
+          <input
+            type="password"
+            class="repassword"
+            placeholder="confirm password"
+          />
+        </div>
+        <button class="signup">
+          Sign<span class="up">up</span><span class="dot1">.</span>
+        </button>
+      </form> -->
+      <form>
+          <input type="text" class="username" placeholder="username" /><br />
+          <input type="email" class="email" placeholder="email" />
+          <input type="password" class="password" placeholder="password" />
+                <input
+            type="password"
+            class="repassword"
+            placeholder="confirm password"
+          />
+    
+        <button type="submit" class="signup">
+          Sign<span class="up">up</span><span class="dot1">.</span>
+        </button>
+      </form>
     </div>
 
     <div class="partC">
-        <h3 class="heading">
-            with noteit<span class="dot">.</span>
-        </h3>
-        <div class="description1">
-            Collect , document and organize all your thoughts in one place. 
-        </div>
-        <br>
-        <div class="description2">
-            You’re just one step away from creating your virtual brain!
-        </div >
-        <img class="illustration" src="../assets/images/image-removebg-preview1.svg" alt="illustration">
+      <h3 class="heading">with noteit<span class="dot">.</span></h3>
+      <div class="description1">
+        Collect , document and organize all your thoughts in one place.
+      </div>
+      <br />
+      <div class="description2">
+        You’re just one step away from creating your virtual brain!
+      </div>
+      <!-- <img class="illustration" src="../assets/images/image-removebg-preview1.svg" alt="illustration"> -->
+      <img
+        class="illustration"
+        src="../assets/Images/signupPage.svg"
+        alt="illustration"
+      />
     </div>
-</body>
+</div>
+  </body>
 </html>

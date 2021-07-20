@@ -122,6 +122,7 @@ body {
 
 .link:hover {
   color: white;
+  cursor: pointer;
 }
 
 .partA {
