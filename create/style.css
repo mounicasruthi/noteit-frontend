@@ -27,6 +27,7 @@ body {
   background-position: center center;
   align-items: center;
 }
+
 main {
   height: 90vh;
   width: 100%;
@@ -37,10 +38,10 @@ main {
 }
 
 .title {
-  font-family: Gilroy Dark;
+  font-family: 'Gilroy Dark';
   font-style: normal;
   font-weight: 800;
-  font-size: 70px;
+  font-size: 100px;
 
   text-align: center;
 
@@ -48,20 +49,26 @@ main {
 }
 
 .description {
-  font-family: Gilroy;
+  font-family: 'Gilroy';
   font-style: normal;
   font-weight: 300;
-  font-size: 25px;
+  font-size: 35px;
 
   text-align: center;
 
   color: #083230;
 }
 
+.content 
+{
+  margin: 40px;
+}
+
 .create-notes-container {
-  width: 300px;
-  height: 350px;
+  width: 500px;
+  height: 450px;
   padding: 20px;
+  margin: 60px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

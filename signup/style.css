@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Gilroy", sans-serif;
-  color: white;
+  font-family: "Gilroy Semi-Bold", sans-serif;
+  color: #000;
 }
 @font-face {
   font-family: "Gilroy";
@@ -47,6 +47,7 @@ body {
 
 form > * {
   margin: 10px 0;
+  
 }
 form > *:first-child {
   margin-top: 10px;
@@ -92,8 +93,15 @@ form > button:active {
   transform: scale(1);
 }
 
+.signup, .signin
+{
+  display:flex;
+  margin-left: 60px;
+  color: white;
+}
 
 .partC {
+  display:inline;
   margin-left: 90px;
   font-family: "Gilroy";
   font-style: normal;
@@ -136,4 +144,11 @@ form > button:active {
 
 .illustration {
   height: 280px;
+}
+
+@media screen and (max-width: 1000px) {
+  .partC {
+    display: none;
+  }
+  
 }
