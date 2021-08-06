@@ -24,9 +24,14 @@ body {
   overflow: hidden;
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
+  display: flex;
   padding-top: 60px;
   min-height: 100vh;
   width: 100%;
@@ -100,12 +105,13 @@ body {
   text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
 }
 
-.additional {
-  position: absolute;
-  width: 316px;
-  height: 67px;
-  left: 944px;
-  top: 170px;
+.additional
+{
+  margin-top: 20px;
+  position: fixed;
+  right: 0;
+  margin-right: 150px;
+  /* z-index: 1; */
 }
 
 .controls {
@@ -152,4 +158,26 @@ body {
 
 .link:hover {
   color: white;
+}
+
+@media screen and (max-width: 900px) 
+{
+  .additional
+  {
+    top: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+#clock
+{
+  width: 300px;
+  height: 100px;
+}
+
+  .options {
+  
+    width: 130px;
+  }
+
 }
