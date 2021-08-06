@@ -124,3 +124,26 @@ content
 
   color: #000000;
 }
+
+
+@media screen and (max-width: 900px) {
+  .content {
+    display: none;
+  }
+
+  main {
+    height: 90vh;
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .create-notes-container {
+    width: 500px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+}
