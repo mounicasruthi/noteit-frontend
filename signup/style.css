@@ -120,6 +120,7 @@ form > button:active {
 .dot {
   color: #fdd66d;
   font-size: 50px;
+  font-family: ui-sans-serif;
 }
 .dot1 {
   font-family: "Gilroy Dark";
