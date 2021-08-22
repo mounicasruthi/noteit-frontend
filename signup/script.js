@@ -12,8 +12,8 @@ const signInForm = document.querySelector(".signin-form");
 signInForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const signInEmail = document.querySelector(".signin-email");
-  const signInPassword = document.querySelector(".signin-password");
+  const signInEmail = document.querySelector(".email");
+  const signInPassword = document.querySelector(".password");
 
   const email = signInEmail.value;
   const password = signInPassword.value;
@@ -48,11 +48,11 @@ const signUpForm = document.querySelector(".signup-form");
 signUpForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const email = document.querySelector(".signup-email").value;
-  const name = document.querySelector(".signup-name").value;
-  const password = document.querySelector(".signup-password").value;
+  const email = document.querySelector(".email").value;
+  const name = document.querySelector(".name").value;
+  const password = document.querySelector(".password").value;
   const retypedPassword = document.querySelector(
-    ".signup-retyped-password"
+    ".repassword"
   ).value;
 
   if (password !== retypedPassword) {
