@@ -53,9 +53,7 @@ signUpForm.addEventListener("submit", (event) => {
   const email = document.querySelector(".signup-email").value;
   const name = document.querySelector(".signup-name").value;
   const password = document.querySelector(".signup-password").value;
-  const retypedPassword = document.querySelector(
-    ".signup-repassword"
-  ).value;
+  const retypedPassword = document.querySelector(".signup-repassword").value;
 
   if (password !== retypedPassword) {
     alert("Passwords don't match");
