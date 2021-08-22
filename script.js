@@ -1,8 +1,18 @@
+
 const body = document.querySelector("body");
-const registerButton = document.querySelector(".link");
+const signInSignUpButton = document.querySelector(".link");
 
+window.addEventListener("load", () => {
+  body.classList.add("visible");
 
-registerButton.addEventListener("click", () => {
+  const token = localStorage.getItem("jwt");
+
+  if (token) {
+    location.href = "/pages/dashboard/dashboard.html";
+  }
+});
+
+signInSignUpButton.addEventListener("click", () => {
   location.href = "/signup/index.html";
 });
 
