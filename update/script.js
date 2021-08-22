@@ -5,7 +5,7 @@ console.log(noteId);
 
 const updateNoteButton = document.querySelector(".create-note-button");
 
-const apiUrl = "https://noteitappbackend.herokuapp.com/";
+const apiUrl = "https://noteitappbackend.herokuapp.com";
 
 const token = localStorage.getItem("jwt");
 

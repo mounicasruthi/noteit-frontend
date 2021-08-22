@@ -1,6 +1,6 @@
 const body = document.querySelector("body");
 
-const apiUrl = "https://noteitappbackend.herokuapp.com/";
+const apiUrl = "https://noteitappbackend.herokuapp.com";
 
 window.addEventListener("load", () => {
   body.classList.add("visible");

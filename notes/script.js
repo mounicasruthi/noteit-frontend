@@ -24,7 +24,7 @@ const cardContainer = document.querySelector(".card-container");
 const logout = document.querySelector(".logout");
 const createNoteButton = document.querySelector(".new-note");
 
-const apiUrl = "https://noteitappbackend.herokuapp.com/";
+const apiUrl = "https://noteitappbackend.herokuapp.com";
 
 const token = localStorage.getItem("jwt");
 
