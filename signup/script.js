@@ -1,13 +1,14 @@
 const body = document.querySelector("body");
 
 const apiUrl = "https://noteitappbackend.herokuapp.com";
+// const apiUrl = "http://localhost:8000";
 
 window.addEventListener("load", () => {
   body.classList.add("visible");
 });
 
 
-const signInForm = document.querySelector(".signin-form");
+const signInForm = document.querySelector(".partA");
 
 signInForm.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -17,6 +18,7 @@ signInForm.addEventListener("submit", (event) => {
 
   const email = signInEmail.value;
   const password = signInPassword.value;
+  
 
   fetch(`${apiUrl}/auth/signin`, {
     method: "POST",

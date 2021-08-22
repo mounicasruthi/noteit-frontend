@@ -1,6 +1,7 @@
-const createNoteInput = document.querySelector(".create-note-button");
+const createNoteButton = document.querySelector(".create-note-button");
 
 const apiUrl = "https://noteitappbackend.herokuapp.com";
+// const apiUrl = "http://localhost:8000";
 
 const token = localStorage.getItem("jwt");
 
